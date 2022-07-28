@@ -1,0 +1,28 @@
+test_project:
+  outputs:
+    dev:
+      dbname: postgres
+      host: findp-dev-01
+      pass: demouser
+      port: 5432
+      schema: public
+      threads: 4
+      type: postgres
+      user: demouser
+    prod:
+      dbname:
+      - dbname
+      host:
+      - host
+      pass:
+      - prod_password
+      port:
+      - port
+      schema:
+      - prod_schema
+      threads:
+      - 1 or more
+      type: postgres
+      user:
+      - prod_username
+  target: dev
