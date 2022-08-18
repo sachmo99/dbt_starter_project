@@ -2,13 +2,13 @@ test_project:
   outputs:
     dev:
       dbname: postgres
-      host: findp-dev-01
-      pass: demouser
+      host: 
+      pass: 
       port: 5432
       schema: public
       threads: 4
-      type: postgres
-      user: demouser
+      type: 
+      user: 
     prod:
       dbname:
       - dbname
